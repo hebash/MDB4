@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en" style=" scroll-behavior: smooth;">
+  
+  <!-- class="smooth-scroll list-unstyled" -->
+<head>
+ 
+  <meta charset="utf-8">
+  <title>MDBootstrap4</title>
+  <base href="https://hebash.github.io/MDB4/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.6.0/css/mdb.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <!-- <script src="/labs/scrollup/js/lib/jquery-1.9.1.min.js"></script>
+  <script src="/labs/scrollup/js/jquery.scrollUp.min.js"></script> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"> </script>
+<link rel="stylesheet" href="styles.897cd3e60919376141eb.css"></head>
+
+<body class="scrollbar-secondary"> 
+
+      <app-root></app-root>
+ 
+  
+
+ 
+ 
+<!-- scroll top btn -->
+<div class="scroll-top text-center" id="scroll-top" style="display: none;"  onclick="topFunction()">
+  <i class="fas fa-angle-double-up" ></i>
+</div>
+
+  <!--Modal: modalCookie-->
+  <div class="modal fade bottom" id="modalCookie1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+    aria-hidden="true" data-backdrop="false">
+    <div class="modal-dialog modal-frame modal-bottom modal-notify modal-info" role="document">
+      <!--Content-->
+      <div class="modal-content">
+        <!--Body-->
+        <div class="modal-body">
+          <div class="row d-flex justify-content-center align-items-center">
+
+            <p class="pt-3 pr-2">We use cookies to improve your website experience</p>
+
+            <a type="button" class="btn btn-primary">Learn more <i class="fas fa-book ml-1"></i></a>
+            <a type="button" class="btn btn-outline-primary waves-effect" data-dismiss="modal">Ok, thanks</a>
+          </div>
+        </div>
+      </div>
+      <!--/.Content-->
+    </div>
+  </div>
+  <!--Modal: modalCookie-->
+ 
+  <script>
+    $(document).ready(function () {
+        $("#modalCookie1").modal();
+    });
+
+    // When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("scroll-top").style.display = "block";
+  } else {
+    document.getElementById("scroll-top").style.display = "none";
+  }
+}
+
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+ <!-- </div> -->
+   <script>
+    new WOW().init();
+   </script>
+<script type="text/javascript" src="runtime.ec2944dd8b20ec099bf3.js"></script><script type="text/javascript" src="polyfills.9d3a8743be9f041e6ba8.js"></script><script type="text/javascript" src="scripts.968f55bfb751cd0febb2.js"></script><script type="text/javascript" src="main.9e87eb91c4446fee6120.js"></script></body>
+
+</html>
+
+
+  
